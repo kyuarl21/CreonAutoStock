@@ -66,7 +66,7 @@ print("예상체결가 대비", exDiff)
 print("예상체결수량", exVol)
 
 # Slacker
-slack = Slacker('xoxb-3835512918918-3876700699092-geAVl8chr4Tnu43BaSuUChsx')
+slack = Slacker('')
 
 # Send a message to #general channel
 slack.chat.post_message('#stock', '삼성전자 현재가: ' + str(offer))
